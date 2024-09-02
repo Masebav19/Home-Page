@@ -1,0 +1,5 @@
+### Get estudiantes 
+GET http://localhost:4002/home/estudiantes
+
+### Get Projectos 
+GET http://localhost:4002/home/projects
