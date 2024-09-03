@@ -1,14 +1,13 @@
 import { Menu } from "./Menu"
 import { SectionInfo } from "./SectionInfo"
+import ImageGallery from "./imageGallery"
 function App() {
   return (
     <>
-      <header className="Header-container">
-        <h2>Laboratorio de redes industriales</h2>
-      </header>
       <Menu/>
-      <SectionInfo/>
-      <footer>Oficina: E17/P7/E006</footer>
+        <ImageGallery/>
+        <SectionInfo/>
+      <footer><strong>Laboratorio de redes industriales Oficina:</strong> E17/P7/E006</footer>
     </>  
   )
 }
