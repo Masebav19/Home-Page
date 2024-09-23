@@ -5,6 +5,9 @@ export function Menu (){
     function handleCalendar (){
         window.location.replace('http://172.31.36.30:5000/calendar')
     }
+    function handleRepository() {
+        window.location.replace('https://github.com/Masebav19/Programas-Base')
+    }
     return(
         <>
             <aside className="Menu-container">
@@ -18,6 +21,10 @@ export function Menu (){
                 <section onClick={handleCalendar}>
                     <img src="../public/calendar.svg" alt="calendar" />
                     <span>Calendario</span>
+                </section>
+                <section onClick={handleRepository}>
+                    <img src="../public/repository.svg" alt="Repo" />
+                    <span>Repositorio</span>
                 </section>
             </aside>
         </>
